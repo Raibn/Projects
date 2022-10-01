@@ -11,11 +11,11 @@
 import nltk
 
 
-with open('/Users/newuser/Home/Desktop/Projects/Randoms/texts/words_webscrape.txt','r') as w:
+with open('/Users/newuser/Home/Desktop/Projects/hangman/lists/words_refined.txt','r') as w:
     wlist = w.read()
-with open('/Users/newuser/Home/Desktop/Projects/Randoms/texts/males_webscrape.txt','r') as m:
+with open('/Users/newuser/Home/Desktop/Projects/hangman/lists/male_names_refined.txt','r') as m:
     mlist = m.read()
-with open('/Users/newuser/Home/Desktop/Projects/Randoms/texts/females_webscrape.txt','r') as f:
+with open('/Users/newuser/Home/Desktop/Projects/hangman/lists/female_names_refined.txt','r') as f:
     flist = f.read()
 
 

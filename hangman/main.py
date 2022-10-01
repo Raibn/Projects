@@ -50,9 +50,9 @@ try:
     def hangman():
         
         while True:
-            word = get_a_word()
-            boys_name = get_a_boys_name()
-            girls_name = get_a_girls_name()
+            word = get_a_girls_name()
+            # boys_name = get_a_boys_name()
+            # girls_name = get_a_girls_name()
             # Letters in the word 
             word_letter = set(word)
             alphabets = set(string.ascii_uppercase)
@@ -67,6 +67,7 @@ try:
             while len(word_letter) > 0 and life > 0 :
                 
                 ## getting User input ...
+                print(f'You have {life} lifes.')
                 user_letters = input("Guess a letter : ").upper()
                 #time.sleep(1.5)
                 ## Letters used 
@@ -96,8 +97,8 @@ try:
                     life -= 1
 
                 ## we need to tell the user Current word is ie (W - -)
+                print('You Have used these letters: ' , ' '.join(used_letters))
                 word_list = [letter if letter in used_letters else "_" for letter in word]
-                print(f'You have {life} lifes. \nYou Have used these letters: ' , ' '.join(used_letters))
                 print('Current word: ' , ' '.join(word_list))
 
 
