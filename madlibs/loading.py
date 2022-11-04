@@ -2,7 +2,7 @@
 ## written by : Brian Karani                           ##
 ## Contact : ~~                                        ##
 ## Email : brayokara@gmail.com                         ##
-## Github : https://github.com/Raibn/Projects/madlibs  ##
+## Github : https://github.com/Raibn/Projects/tree/main/madlibs  ##
 #########################################################
 
 

@@ -5,7 +5,7 @@
 ## Name       : Brian Karani                                       ##
 ## Contact : ~                                                     ##
 ## Email : brayokara@gmail.com                                     ##
-## Github : https://github.com/Raibn/Projects/rock-paper-scissors/ ##
+## Github : https://github.com/Raibn/Projects/tree/main/rock-paper-scissors/ ##
 ## ##################################################################
 
 

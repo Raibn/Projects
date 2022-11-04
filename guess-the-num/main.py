@@ -2,7 +2,7 @@
 ## written by : Brian Karani                                ##
 ## Contact : ~                                              ##
 ## Email : brayokara@gmail.com                              ##
-## Github : https://github.com/Raibn/Projects/guess-the-num ##
+## Github : https://github.com/Raibn/Projects/tree/main/guess-the-num ##
 ##############################################################
 
 
