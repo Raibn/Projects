@@ -1,9 +1,9 @@
-## ########################################################
-## written by : Brian Karani                             ##
-## Contact : ~~                                          ##
-## Email : brayokara@gmail.com                           ##
-## Github : https://github.com/Raibn/rock-paper-scissors ##
-## ########################################################
+## #################################################################
+## written by : Brian Karani                                      ##
+## Contact : ~~                                                   ##
+## Email : brayokara@gmail.com                                    ##
+## Github : https://github.com/Raibn/Projects/rock-paper-scissors ##
+## #################################################################
 
 
 ## Rock Paper scissors

@@ -1,12 +1,12 @@
 # Hiiiii
 
 
-## ############################################
-## written by : Brian Karani                 ##
-## Contact : ~                               ##
-## Email : brayokara@gmail.com               ##
-## Github : https://github.com/Raibn/hangman ##
-## ############################################
+## ############################################################
+## written by : Brian Karani                                  ##
+## Contact : ~                                                ##
+## Email : brayokara@gmail.com                                ##
+## Github : https://github.com/Raibn/Projects/hangman         ##
+## #############################################################
 
 ## Hangman Game
 

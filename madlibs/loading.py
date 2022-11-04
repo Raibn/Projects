@@ -1,3 +1,12 @@
+#########################################################
+## written by : Brian Karani                           ##
+## Contact : ~~                                        ##
+## Email : brayokara@gmail.com                         ##
+## Github : https://github.com/Raibn/Projects/madlibs  ##
+#########################################################
+
+
+
 import time
 import sys
 #import requests as rq

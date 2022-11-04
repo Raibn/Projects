@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="assets/css/boxicons.min.css">
+        
+        <title>CSC 217 assignment </title>
+    </head>
+    <body>
+        <!--========= HEADER =======-->
+        <header class="l-header">
+            <nav class="nav bg-grid">
+                <div>
+                    <a class="nav__logo" href="#">PROJECTS</a>
+                </div>
+                
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="index.html" class="nav__link active">Home</a></li>
+                        <!--li class="nav__item"><a href="index.html" class="nav__link">About</a></li>                            <li class="nav__item"><a href="index.html" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Work</a></li>
+                        <li class="nav__item"><a href="index.html" class="nav__link">Contact</a></li-->
+                    </ul>
+                </div>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'>x</i>
+                </div>
+            </nav>
+        </header>
+        <main class="l-main">
+            <!--=========HOME========-->
+            <section class="work section" id="work1">
+                
+                <div class="card">
+                    <div class="imgbx" onclick="document.getElementById('TCP-CHAT').style.display='block'">
+                        <img class="work__img" src="assets/img/work4.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>TCP Chat Room</h3>
+                        <p> The main objective of this project was to get used to the socket and server modules in python lib.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="imgbx" onclick="document.getElementById('TIC-TAC-TOE').style.display='block'">
+                        <img class="work__img" src="assets/img/work1.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Tic Tac Toe </h3>
+                        <p>A Terminal version of the TIC-TAC-TOE game  .This project covers OOP in python i.e , variables ,functions ,loops ,dictionaries, list, etc
+
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="imgbx" onclick="document.getElementById('WIFI-PASS').style.display='block'">
+                        <img class="work__img" src="assets/img/work2.jpg" alt="">
+                    </div >
+                    <div class="content">
+                        <h3>Windows wifi passwords </h3>
+                        <p>This is a Windows python script that allows you to see all saved Wlan networks and their password in plain text </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="imgbx" onclick="document.getElementById('WIFI-DOS').style.display='block'">
+                        <img class="work__img" src="assets/img/work3.jpg" alt="">
+                    </div >
+                    <div class="content">
+                        <h3>Wifi DOS script </h3>
+                        <p>This is a Linux script to automate a Denail Of Service attack on any wifi tools </p>
+                    </div>
+                </div>
+            </section>
+    
+            <div id="TCP-CHAT" class="modal">
+                <form class="modal-content animate">
+                    <div class="imgcontainer">
+                        <span onclick="document.getElementById('TCP-CHAT').style.display='none'" class="close" title="Close PopUp">&times;</span>
+                        <img src="assets/img/work3.jpg" alt="project" class="avatar">
+                        <h3 class="project_details" style="text-align:center">Project Details</h3>
+                    </div>
+                    <div class="container">
+                        <input type="text" placeholder="TCP Chat" name="uname" readonly>
+                        <textarea class="project_description" rows="3" placeholder="Project Description" readonly>lorem ipsum
+                        </textarea>
+                        <a href=""><input type="url" placeholder="Project link"readonly></a>
+                        <input type="text" placeholder="Languages used : Python v3" readonly>
+                        <a href="https://www.github.com/Raibn"><button class="project_submit" type="button">Visit</button></a>
+                    </div>
+                </form>
+            </div>
+            <div id="TIC-TAC-TOE" class="modal">
+                <form class="modal-content animate">
+                    <div class="imgcontainer">
+                        <span onclick="document.getElementById('TIC-TAC-TOE').style.display='none'" class="close" title="Close PopUp">&times;</span>
+                        <img src="assets/img/work3.jpg" alt="project" class="avatar">
+                        <h3 class="project_details" style="text-align:center">Project Details</h3>
+                    </div>
+                    <div class="container">
+                        <input type="text" placeholder="Tic Tac Toe" name="uname" readonly>
+                        <textarea class="project_description" rows="3" placeholder="Project Description" readonly>
+                        </textarea>
+                        <a href=""><input type="url" placeholder="Project link"readonly></a>
+                        <input type="text" placeholder="Languages used : Python v3" readonly>
+                        <a href="https://www.github.com/Raibn"><button class="project_submit" type="button">Visit</button></a>
+                    </div>
+                </form>
+            </div>
+            <div id="WIFI-PASS" class="modal">
+                <form class="modal-content animate">
+                    <div class="imgcontainer">
+                        <span onclick="document.getElementById('WIFI-PASS').style.display='none'" class="close" title="Close PopUp">&times;</span>
+                        <img src="assets/img/work3.jpg" alt="project" class="avatar">
+                        <h3 class="project_details" style="text-align:center">Project Details</h3>
+                    </div>
+                    <div class="container">
+                        <input type="text" placeholder="Wifi passwords Windows" name="uname" readonly>
+                        <textarea class="project_description" rows="3" placeholder="Project Description" readonly>
+                        </textarea>
+                        <a href=""><input type="url" placeholder="Project link"readonly></a>
+                        <input type="text" placeholder="Languages used : Python v3" readonly>
+                        <a href="https://www.github.com/Raibn"><button class="project_submit" type="button">Visit</button></a>
+                    </div>
+                </form>
+            </div>
+            <div id="WIFI-DOS" class="modal">
+                <form class="modal-content animate">
+                    <div class="imgcontainer">
+                        <span onclick="document.getElementById('WIFI-DOS').style.display='none'" class="close" title="Close PopUp">&times;</span>
+                        <img src="assets/img/work3.jpg" alt="project" class="avatar">
+                        <h3 class="project_details" style="text-align:center">Project Details</h3>
+                    </div>
+                    <div class="container">
+                        <input type="text" placeholder="Wifi DOS script" name="uname" readonly>
+                        <textarea class="project_description" rows="4" placeholder="Project Description" readonly>
+                        </textarea>
+                        <a href=""><input type="url" placeholder="Project link"readonly></a>
+                        <input type="text" placeholder="Languages used : Python3" readonly>
+                        <a href="https://www.github.com/Raibn"><button class="project_submit" type="button">Visit</button></a>
+                    </div>
+                </form>
+            </div>
+            <div id="TCP-CHAT" class="modal">
+                <form class="modal-content animate">
+                    <div class="imgcontainer">
+                        <span onclick="document.getElementById('TCP-CHAT').style.display='none'" class="close" title="Close PopUp">&times;</span>
+                        <img src="assets/img/work3.jpg" alt="project" class="avatar">
+                        <h3 class="project_details" style="text-align:center">Project Details</h3>
+                    </div>
+                    <div class="container">
+                        <input type="text" placeholder="TCP Chat" name="uname" readonly>
+                        <textarea class="project_description" rows="3" placeholder="Project Description" readonly>
+                        </textarea>
+                        <a href=""><input type="url" placeholder="Project link"readonly></a>
+                        <input type="text" placeholder="Languages used : Python3" readonly>
+                        <a href="https://www.github.com/Raibn"><button class="project_submit" type="button">Visit</button></a>
+                    </div>
+                </form>
+            </div>
+            <!--div id="TCP-CHAT" class="modal">
+                <form class="modal-content animate">
+                    <div class="imgcontainer">
+                        <span onclick="document.getElementById('TCP-CHAT').style.display='none'" class="close" title="Close PopUp">&times;</span>
+                        <img src="assets/img/work3.jpg" alt="project" class="avatar">
+                        <h3 class="project_details" style="text-align:center">Project Details</h3>
+                    </div>
+                    <div class="container">
+                        <input type="text" placeholder="TCP Chat" name="uname" readonly>
+                        <textarea class="project_description" rows="3" placeholder="Project Description" readonly>lorem ipsum
+                        </textarea>
+                        <a href=""><input type="url" placeholder="Project link"readonly></a>
+                        <input type="text" placeholder="Languages used : Python v3" readonly>
+                        <a href="https://www.github.com/Raibn"><button class="project_submit" type="button">Visit</button></a>
+                    </div>
+                </form>
+            </div>
+            <div id="TCP-CHAT" class="modal">
+                <form class="modal-content animate">
+                    <div class="imgcontainer">
+                        <span onclick="document.getElementById('TCP-CHAT').style.display='none'" class="close" title="Close PopUp">&times;</span>
+                        <img src="assets/img/work3.jpg" alt="project" class="avatar">
+                        <h3 class="project_details" style="text-align:center">Project Details</h3>
+                    </div>
+                    <div class="container">
+                        <input type="text" placeholder="TCP Chat" name="uname" readonly>
+                        <textarea class="project_description" rows="3" placeholder="Project Description" readonly>lorem ipsum
+                        </textarea>
+                        <a href=""><input type="url" placeholder="Project link"readonly></a>
+                        <input type="text" placeholder="Languages used : Python v3" readonly>
+                        <a href="https://www.github.com/Raibn"><button class="project_submit" type="button">Visit</button></a>
+                    </div>
+                </form>
+            </div-->
+        </main>
+        <footer class="footer" style="margin-bottom:0">
+            <p class="footer__title">Y.o.B.i</p>
+            <div class="footer__social">
+                <a href="https://github.com/Raibn" class="footer__icon"><i class='bx bxl-github' ></i></a>
+                <a href="https://discord.com" class="footer__icon"><i class='bx bxl-discord' ></i></a>
+                <a href="https://linkedin.com" class="footer__icon"><i class='bx bxl-linkedin' ></i></a>
+            </div>
+            <p class="footer__copy">&#169;RAIBN Webdev project All rigths reserved</p>
+        </footer>
+        <!--===== SCROLL REVEAL =====-->
+        
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="assets/js/scrollreveal.js"></script>        
+        
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>

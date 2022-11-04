@@ -1,12 +1,12 @@
 ## Hiiiiii
 
 
-## #####################################################
-## Name       : Brian Karani                          ##
-## Contact : ~                                        ##
-## Email : brayokara@gmail.com                        ##
-## Github : https://github.com/Raibn/guess-the-number ##
-## #####################################################
+## ##############################################################
+## Name       : Brian Karani                                   ##
+## Contact : ~                                                 ##
+## Email : brayokara@gmail.com                                 ##
+## Github : https://github.com/Raibn/Projects/guess-the-number ##
+## ##############################################################
 
 
 ## Guess the number

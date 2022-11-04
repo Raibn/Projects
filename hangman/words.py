@@ -1,9 +1,9 @@
-## ##################################################
-## written by : Brian Karani                       ##
-## Contact : ~                                     ##
-## Email : brayokara@gmail.com                     ##
-## Github : https://github.com/Raibn/hangman/lists ##
-## ##################################################
+## ###########################################################
+## written by : Brian Karani                                ##
+## Contact : ~                                              ##
+## Email : brayokara@gmail.com                              ##
+## Github : https://github.com/Raibn/Projects/hangman/      ##
+## ###########################################################
 
 
 

@@ -1,0 +1,42 @@
+| 0 | 1 | 2 |
+| 3 | 4 | 5 |
+| 6 | 7 | 8 |
+X makes a move to square 6
+|   |   |   |
+|   |   |   |
+| X |   |   |
+
+O makes a move to square 5
+|   |   |   |
+|   |   | O |
+| X |   |   |
+
+X makes a move to square 2
+|   |   | X |
+|   |   | O |
+| X |   |   |
+
+O makes a move to square 8
+|   |   | X |
+|   |   | O |
+| X |   | O |
+
+X makes a move to square 3
+|   |   | X |
+| X |   | O |
+| X |   | O |
+
+O makes a move to square 7
+|   |   | X |
+| X |   | O |
+| X | O | O |
+
+X makes a move to square 4
+|   |   | X |
+| X | X | O |
+| X | O | O |
+
+X wins!!
+|   |   | X |
+| X | X | O |
+| X | O | O |

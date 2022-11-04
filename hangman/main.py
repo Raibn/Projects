@@ -1,9 +1,9 @@
-## ############################################
-## written by : Brian Karani                 ##
-## Contact : ~                               ##
-## Email : brayokara@gmail.com               ##
-## Github : https://github.com/Raibn/hangman ##
-## ############################################
+## #####################################################
+## written by : Brian Karani                          ##
+## Contact : ~                                        ##
+## Email : brayokara@gmail.com                        ##
+## Github : https://github.com/Raibn/Projects/hangman ##
+## #####################################################
 
 ## Hangman Game
 
@@ -50,7 +50,7 @@ try:
     def hangman():
         
         while True:
-            word = get_a_girls_name()
+            word = get_a_word()
             # boys_name = get_a_boys_name()
             # girls_name = get_a_girls_name()
             # Letters in the word 
